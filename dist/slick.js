@@ -1,3 +1,4 @@
+(function() {
 'use strict';
 angular.module('slick', []).directive('slick', [
   '$timeout',
@@ -160,3 +161,4 @@ angular.module('slick', []).directive('slick', [
     };
   }
 ]);
+})();
